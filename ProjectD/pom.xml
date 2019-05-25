@@ -10,13 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ProjectD</artifactId>
-    <dependencies>
+   <!-- <dependencies>
         <dependency>
             <groupId>ProjectA</groupId>
             <artifactId>ProjectC</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-    </dependencies>
+    </dependencies>-->
 
 
 </project>

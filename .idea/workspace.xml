@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cac29931-7533-49cd-a3b4-eaad8f5c7189" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectD/ProjectD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectD/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectD/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectD/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,17 +28,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectC/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="300">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProjectD/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="22" selection-start-line="12" selection-start-column="3" selection-end-line="18" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -52,9 +53,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ProjectB/pom.xml" />
         <option value="$PROJECT_DIR$/ProjectC/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ProjectD/pom.xml" />
       </list>
     </option>
   </component>
@@ -85,6 +87,11 @@
               <item name="ProjectA" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectA" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProjectA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectA" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectD" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -93,12 +100,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -125,7 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1558778193086</updated>
       <workItem from="1558778194474" duration="311000" />
-      <workItem from="1558779566914" duration="3660000" />
+      <workItem from="1558779566914" duration="4865000" />
     </task>
     <task id="LOCAL-00001" summary="Adding ProjectB as a Module of Project A">
       <created>1558781646361</created>
@@ -148,11 +159,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558783555974</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding Project D as module of Project A.&#10;Adding a dependency to Project C  for Project D&#10;Generate Jar file on Build">
+      <created>1558783754112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558783754112</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding Junit 4.12 as dependency to Project A">
+      <created>1558784044140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558784044140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3971000" />
+    <option name="totallyTimeSpent" value="5176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -184,7 +209,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32953367" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
@@ -204,20 +229,15 @@
     <MESSAGE value="Adding ProjectB as a Module of Project A" />
     <MESSAGE value="ProjectB generate a WAR file on Build" />
     <MESSAGE value="Adding Project C as module of Project A.&#10;Adding a dependency to Project B  for Project C&#10;Generate Jar file on Build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Project C as module of Project A.&#10;Adding a dependency to Project B  for Project C&#10;Generate Jar file on Build" />
+    <MESSAGE value="Adding Project D as module of Project A.&#10;Adding a dependency to Project C  for Project D&#10;Generate Jar file on Build" />
+    <MESSAGE value="Adding Junit 4.12 as dependency to Project A" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Junit 4.12 as dependency to Project A" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProjectB/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -232,8 +252,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectD/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ProjectD/ProjectD.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectD/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" selection-start-line="12" selection-start-column="3" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -288,7 +322,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ProjectC</last-edited>
+          <last-edited>ProjectD</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -300,6 +334,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
